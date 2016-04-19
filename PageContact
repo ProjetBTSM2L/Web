@@ -1,0 +1,395 @@
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+        <link href="C:\Users\Alexis\Desktop\ProjetCath\CSS\Contact.css" rel="stylesheet" type="text/css" />
+		<title>ProjetCath</title>
+	</head>
+    <body>
+		<header>
+			<div id="logo" href="PageAccueil.html"><img src="C:\Users\Alexis\Desktop\ProjetCath\IMAGE\LogoSite.png" height="500%"></div>
+			<div id="sommaire">
+				<ul>
+					<li id="accueil" class="sommaire"><a href="PageAccueil.html">Accueil</a></li>
+					<li id="profil" class="sommaire"><a href="">Profil</a></li>
+					<li id="produits" class="sommaire"><a href="">Produits</a></li>
+					<li id="contact" class="sommaire"><a href="">Contact</a></li>
+				</ul>
+			</div>
+		</header>
+		<section >
+
+
+
+
+
+
+
+			<form accept-charset="UTF-8" method="post" action="" class="form" id="pardot-form">
+
+			<style type="text/css">
+			form.form p label { color: #000000; font-size: 10pt; font-family: Helvetica, Arial, sans-serif; }
+			form.form .pd-checkbox:after { content: " "; display: table; clear: both; }
+			form.form .pd-checkbox { *zoom: 1; }
+			form.form .pd-checkbox .value span { float: left !important; }
+			form.form .pd-radio:after { content: " "; display: table; clear: both; }
+			form.form .pd-radio { *zoom: 1; }
+			form.form .pd-radio .value span { float: left !important; }
+			form.form p.required label, form.form span.required label { background: none; padding-left: 0px; }
+			</style>
+
+	<p style="text-align: center;">Remplissez les champs ci-dessous</p>		
+		
+			<p class="form-field width: 10% !important; salutation pd-select     ">				
+					<label class="field-label" for="25962_28692pi_25962_28692">Salutations</label>				
+				<select name="25962_28692pi_25962_28692" id="25962_28692pi_25962_28692" class="select" onchange=""><option value="" selected="selected"></option>
+					<option value="196508">Mr</option>
+					<option value="196510">Mme</option>
+					<option value="196512">Mlle</option>
+				</select>				
+			</p>
+
+			<div id="error_for_25962_28692pi_25962_28692" style="display:none"></div>
+			<p class="form-field padding: 6px; last_name pd-text required required-custom    ">
+					<label class="field-label" for="25962_4986pi_25962_4986">Nom *</label>
+				<input type="text" name="25962_4986pi_25962_4986" id="25962_4986pi_25962_4986" value="" class="text" size="30" maxlength="32" onchange="" />
+			</p>
+
+			<div id="error_for_25962_4986pi_25962_4986" style="display:none"></div>
+			
+		
+			<p class="form-field  first_name pd-text     ">
+				
+					<label class="field-label" for="25962_4988pi_25962_4988">Prénom</label>
+				
+				
+				<input type="text" name="25962_4988pi_25962_4988" id="25962_4988pi_25962_4988" value="" class="text" size="30" maxlength="32" onchange="" />
+				
+			</p>
+			<div id="error_for_25962_4988pi_25962_4988" style="display:none"></div>
+			
+		
+			<p class="form-field  email pd-text required required-custom    ">
+				
+					<label class="field-label" for="25962_4990pi_25962_4990">Email *</label>
+				
+				
+				<input type="text" name="25962_4990pi_25962_4990" id="25962_4990pi_25962_4990" value="" class="text" size="30" maxlength="255" onchange="piAjax.auditEmailField(this, 25962, 4990, 80300);" />
+				
+			</p>
+			<div id="error_for_25962_4990pi_25962_4990" style="display:none"></div>
+			
+		
+			<p class="form-field  phone pd-text     ">
+				
+					<label class="field-label" for="25962_4992pi_25962_4992">Téléphone</label>
+				
+				
+				<input type="text" name="25962_4992pi_25962_4992" id="25962_4992pi_25962_4992" value="" class="text" size="30" maxlength="32" onchange="" />
+				
+			</p>
+			<div id="error_for_25962_4992pi_25962_4992" style="display:none"></div>
+			
+		
+			<p class="form-field  city pd-text required required-custom    ">
+				
+					<label class="field-label" for="25962_43728pi_25962_43728">Ville *</label>
+				
+				
+				<input type="text" name="25962_43728pi_25962_43728" id="25962_43728pi_25962_43728" value="" class="text" size="30" maxlength="32" onchange="" />
+				
+			</p>
+			<div id="error_for_25962_43728pi_25962_43728" style="display:none"></div>
+			
+		
+			<p class="form-field  country pd-select required required-custom    ">
+				
+					<label class="field-label" for="25962_28710pi_25962_28710">Pays *</label>
+				
+				
+				<select name="25962_28710pi_25962_28710" id="25962_28710pi_25962_28710" class="select" onchange=""><option value="209386" selected="selected"></option>
+					<option value="209388">United States</option>
+					<option value="209390">Canada</option>
+					<option value="209392">Afghanistan</option>
+					<option value="209394">Albania</option>
+					<option value="209396">Algeria</option>
+					<option value="209398">American Samoa</option>
+					<option value="209400">Andorra</option>
+					<option value="209402">Angola</option>
+					<option value="209404">Anguilla</option>
+					<option value="209406">Antarctica</option>
+					<option value="209408">Antigua and Barbuda</option>
+					<option value="209410">Argentina</option>
+					<option value="209412">Armenia</option>
+					<option value="209414">Aruba</option>
+					<option value="209416">Australia</option>
+					<option value="209418">Austria</option>
+					<option value="209420">Azerbaijan</option>
+					<option value="209422">Bahamas</option>
+					<option value="209424">Bahrain</option>
+					<option value="209426">Bangladesh</option>
+					<option value="209428">Barbados</option>
+					<option value="209430">Belarus</option>
+					<option value="209432">Belgium</option>
+					<option value="209434">Belize</option>
+					<option value="209436">Benin</option>
+					<option value="209438">Bermuda</option>
+					<option value="209440">Bhutan</option>
+					<option value="209442">Bolivia</option>
+					<option value="209444">Bosnia and Herzegovina</option>
+					<option value="209446">Botswana</option>
+					<option value="209448">Brazil</option>
+					<option value="209450">British Indian Ocean Territory</option>
+					<option value="209452">British Virgin Islands</option>
+					<option value="209454">Brunei</option>
+					<option value="209456">Bulgaria</option>
+					<option value="209458">Burkina Faso</option>
+					<option value="209460">Burundi</option>
+					<option value="209462">Cambodia</option>
+					<option value="209464">Cameroon</option>
+					<option value="209466">Cape Verde</option>
+					<option value="209468">Cayman Islands</option>
+					<option value="209470">Central African Republic</option>
+					<option value="209472">Chad</option>
+					<option value="209474">Chile</option>
+					<option value="209476">China</option>
+					<option value="209478">Christmas Island</option>
+					<option value="209480">Cocos (Keeling) Islands</option>
+					<option value="209482">Colombia</option>
+					<option value="209484">Comoros</option>
+					<option value="209486">Congo</option>
+					<option value="209488">Cook Islands</option>
+					<option value="209490">Costa Rica</option>
+					<option value="209492">Croatia</option>
+					<option value="209494">Cuba</option>
+					<option value="209496">Cura&ccedil;ao</option>
+					<option value="209498">Cyprus</option>
+					<option value="209500">Czech Republic</option>
+					<option value="209502">C&ocirc;te d&rsquo;Ivoire</option>
+					<option value="209504">Democratic Republic of the Congo</option>
+					<option value="209506">Denmark</option>
+					<option value="209508">Djibouti</option>
+					<option value="209510">Dominica</option>
+					<option value="209512">Dominican Republic</option>
+					<option value="209514">Ecuador</option>
+					<option value="209516">Egypt</option>
+					<option value="209518">El Salvador</option>
+					<option value="209520">Equatorial Guinea</option>
+					<option value="209522">Eritrea</option>
+					<option value="209524">Estonia</option>
+					<option value="209526">Ethiopia</option>
+					<option value="209528">Falkland Islands</option>
+					<option value="209530">Faroe Islands</option>
+					<option value="209532">Fiji</option>
+					<option value="209534">Finland</option>
+					<option value="209536">France</option>
+					<option value="209538">French Guiana</option>
+					<option value="209540">French Polynesia</option>
+					<option value="209542">French Southern Territories</option>
+					<option value="209544">Gabon</option>
+					<option value="209546">Gambia</option>
+					<option value="209548">Georgia</option>
+					<option value="209550">Germany</option>
+					<option value="209552">Ghana</option>
+					<option value="209554">Gibraltar</option>
+					<option value="209556">Greece</option>
+					<option value="209558">Greenland</option>
+					<option value="209560">Grenada</option>
+					<option value="209562">Guadeloupe</option>
+					<option value="209564">Guam</option>
+					<option value="209566">Guatemala</option>
+					<option value="209568">Guernsey</option>
+					<option value="209570">Guinea</option>
+					<option value="209572">Guinea-Bissau</option>
+					<option value="209574">Guyana</option>
+					<option value="209576">Haiti</option>
+					<option value="209578">Honduras</option>
+					<option value="209580">Hong Kong S.A.R., China</option>
+					<option value="209582">Hungary</option>
+					<option value="209584">Iceland</option>
+					<option value="209586">India</option>
+					<option value="209588">Indonesia</option>
+					<option value="209590">Iran</option>
+					<option value="209592">Iraq</option>
+					<option value="209594">Ireland</option>
+					<option value="209596">Isle of Man</option>
+					<option value="209598">Israel</option>
+					<option value="209600">Italy</option>
+					<option value="209602">Jamaica</option>
+					<option value="209604">Japan</option>
+					<option value="209606">Jersey</option>
+					<option value="209608">Jordan</option>
+					<option value="209610">Kazakhstan</option>
+					<option value="209612">Kenya</option>
+					<option value="209614">Kiribati</option>
+					<option value="209616">Kuwait</option>
+					<option value="209618">Kyrgyzstan</option>
+					<option value="209620">Laos</option>
+					<option value="209622">Latvia</option>
+					<option value="209624">Lebanon</option>
+					<option value="209626">Lesotho</option>
+					<option value="209628">Liberia</option>
+					<option value="209630">Libya</option>
+					<option value="209632">Liechtenstein</option>
+					<option value="209634">Lithuania</option>
+					<option value="209636">Luxembourg</option>
+					<option value="209638">Macao S.A.R., China</option>
+					<option value="209640">Macedonia</option>
+					<option value="209642">Madagascar</option>
+					<option value="209644">Malawi</option>
+					<option value="209646">Malaysia</option>
+					<option value="209648">Maldives</option>
+					<option value="209650">Mali</option>
+					<option value="209652">Malta</option>
+					<option value="209654">Marshall Islands</option>
+					<option value="209656">Martinique</option>
+					<option value="209658">Mauritania</option>
+					<option value="209660">Mauritius</option>
+					<option value="209662">Mayotte</option>
+					<option value="209664">Mexico</option>
+					<option value="209666">Micronesia</option>
+					<option value="209668">Moldova</option>
+					<option value="209670">Monaco</option>
+					<option value="209672">Mongolia</option>
+					<option value="209674">Montenegro</option>
+					<option value="209676">Montserrat</option>
+					<option value="209678">Morocco</option>
+					<option value="209680">Mozambique</option>
+					<option value="209682">Myanmar</option>
+					<option value="209684">Namibia</option>
+					<option value="209686">Nauru</option>
+					<option value="209688">Nepal</option>
+					<option value="209690">Netherlands</option>
+					<option value="209692">New Caledonia</option>
+					<option value="209694">New Zealand</option>
+					<option value="209696">Nicaragua</option>
+					<option value="209698">Niger</option>
+					<option value="209700">Nigeria</option>
+					<option value="209702">Niue</option>
+					<option value="209704">Norfolk Island</option>
+					<option value="209706">North Korea</option>
+					<option value="209708">Northern Mariana Islands</option>
+					<option value="209710">Norway</option>
+					<option value="209712">Oman</option>
+					<option value="209714">Pakistan</option>
+					<option value="209716">Palau</option>
+					<option value="209718">Palestinian Territory</option>
+					<option value="209720">Panama</option>
+					<option value="209722">Papua New Guinea</option>
+					<option value="209724">Paraguay</option>
+					<option value="209726">Peru</option>
+					<option value="209728">Philippines</option>
+					<option value="209730">Pitcairn</option>
+					<option value="209732">Poland</option>
+					<option value="209734">Portugal</option>
+					<option value="209736">Puerto Rico</option>
+					<option value="209738">Qatar</option>
+					<option value="209740">Romania</option>
+					<option value="209742">Russia</option>
+					<option value="209744">Rwanda</option>
+					<option value="209746">R&eacute;union</option>
+					<option value="209748">Saint Barth&eacute;lemy</option>
+					<option value="209750">Saint Helena</option>
+					<option value="209752">Saint Kitts and Nevis</option>
+					<option value="209754">Saint Lucia</option>
+					<option value="209756">Saint Pierre and Miquelon</option>
+					<option value="209758">Saint Vincent and the Grenadines</option>
+					<option value="209760">Samoa</option>
+					<option value="209762">San Marino</option>
+					<option value="209764">Sao Tome and Principe</option>
+					<option value="209766">Saudi Arabia</option>
+					<option value="209768">Senegal</option>
+					<option value="209770">Serbia</option>
+					<option value="209772">Seychelles</option>
+					<option value="209774">Sierra Leone</option>
+					<option value="209776">Singapore</option>
+					<option value="209778">Slovakia</option>
+					<option value="209780">Slovenia</option>
+					<option value="209782">Solomon Islands</option>
+					<option value="209784">Somalia</option>
+					<option value="209786">South Africa</option>
+					<option value="209788">South Korea</option>
+					<option value="209790">South Sudan</option>
+					<option value="209792">Spain</option>
+					<option value="209794">Sri Lanka</option>
+					<option value="209796">Sudan</option>
+					<option value="209798">Suriname</option>
+					<option value="209800">Svalbard and Jan Mayen</option>
+					<option value="209802">Swaziland</option>
+					<option value="209804">Sweden</option>
+					<option value="209806">Switzerland</option>
+					<option value="209808">Syria</option>
+					<option value="209810">Taiwan</option>
+					<option value="209812">Tajikistan</option>
+					<option value="209814">Tanzania</option>
+					<option value="209816">Thailand</option>
+					<option value="209818">Timor-Leste</option>
+					<option value="209820">Togo</option>
+					<option value="209822">Tokelau</option>
+					<option value="209824">Tonga</option>
+					<option value="209826">Trinidad and Tobago</option>
+					<option value="209828">Tunisia</option>
+					<option value="209830">Turkey</option>
+					<option value="209832">Turkmenistan</option>
+					<option value="209834">Turks and Caicos Islands</option>
+					<option value="209836">Tuvalu</option>
+					<option value="209838">U.S. Virgin Islands</option>
+					<option value="209840">Uganda</option>
+					<option value="209842">Ukraine</option>
+					<option value="209844">United Arab Emirates</option>
+					<option value="209846">United Kingdom</option>
+					<option value="209848">United States Minor Outlying Islands</option>
+					<option value="209850">Uruguay</option>
+					<option value="209852">Uzbekistan</option>
+					<option value="209854">Vanuatu</option>
+					<option value="209856">Vatican</option>
+					<option value="209858">Venezuela</option>
+					<option value="209860">Viet Nam</option>
+					<option value="209862">Wallis and Futuna</option>
+					<option value="209864">Western Sahara</option>
+					<option value="209866">Yemen</option>
+					<option value="209868">Zambia</option>
+					<option value="209870">Zimbabwe</option>
+				</select>	
+			</p>
+			<div id="error_for_25962_28710pi_25962_28710" style="display:none"></div>
+			
+		
+			<p class="form-field  Comment pd-textarea     ">
+				
+					<label class="field-label" for="25962_5006pi_25962_5006">Commentaires</label>
+				
+				
+				<textarea name="25962_5006pi_25962_5006" id="25962_5006pi_25962_5006" onchange="" cols="40" rows="10" class="standard"></textarea>
+				
+			</p>
+			
+		
+		
+		
+	<p style="position:absolute; width:190px; left:-9999px; top: -9999px;visibility:hidden;">
+		<label for="pi_extra_field">Comments</label>
+		<input type="text" name="pi_extra_field" id="pi_extra_field"/>
+	</p>
+		
+		
+		<!-- forces IE5-8 to correctly submit UTF8 content  -->
+		<input name="_utf8" type="hidden" value="&#9731;" />
+		
+		<p class="submit">
+			<input type="submit" accesskey="s" value="Envoyer" />
+		</p>
+
+		</section>
+		<aside >
+			
+		</aside>
+		<footer>
+			<div>
+				<p></br>COPYRIGHT © 2014 Cabinet THERON. All right reserved.</p>
+			</div>
+		</footer>
+	</body>
+</html>
+
+
+
